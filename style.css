@@ -43,7 +43,7 @@ body {
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("img/icon-phone-footer.svg");
 }
 
 .hero-image {
@@ -70,7 +70,7 @@ body {
 }
 
 .intro {
-  margin: 0 0 120px;
+    margin: 0 0 120px;
 }
 
 .subheading {
@@ -159,14 +159,16 @@ body {
 }
 
 .button {
-  padding: 6px 20px;
+  padding: 2px 15px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
-  background-color: #288be6;
-  color: #ffffff;
+  border: solid 4px;
+  border-radius: 25px;
+  background-color: #f2f4f6;
+  border-color: #288be6;
+  color: black;
 }
 
 .page-footer {
@@ -191,4 +193,9 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.girl-image{
+    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    font-size: 26px ; 
 }
